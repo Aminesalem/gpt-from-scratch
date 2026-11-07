@@ -6,7 +6,7 @@ from model import BigramModel
 
 torch.manual_seed(0)
 
-MODEL = "bigram"  # "bigram" or "gpt"
+MODEL = "gpt"  # "bigram" or "gpt"
 block_size = 64
 batch_size = 32
 max_steps = 3000
