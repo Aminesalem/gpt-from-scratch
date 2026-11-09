@@ -13,7 +13,7 @@ def read_log(path):
     return steps, train, val
 
 
-for name in ["bigram", "gpt"]:
+for name in ["bigram", "gpt", "gpt_v2"]:
     steps, train, val = read_log(f"results/{name}.txt")
     plt.plot(steps, val, label=f"{name} val")
     plt.plot(steps, train, "--", label=f"{name} train")
