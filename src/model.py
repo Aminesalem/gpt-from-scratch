@@ -25,6 +25,7 @@ class BigramModel(nn.Module):
             idx = torch.cat([idx, nxt], dim=1)
         return idx
 
+
 class Head(nn.Module):
     def __init__(self, n_embd, head_size, block_size, dropout):
         super().__init__()
@@ -108,11 +109,18 @@ class GPT(nn.Module):
         return logits, loss
 
     @torch.no_grad()
-    def generate(self, idx, max_new_tokens):
+    def generate(self, idx, max_new_tokens, temperature=1.0, top_k=None):
+        was_training = self.training
+        self.eval()  # dropout must be off while writing text
         for _ in range(max_new_tokens):
             idx_cond = idx[:, -self.block_size:]
             logits, _ = self(idx_cond)
-            probs = F.softmax(logits[:, -1, :], dim=-1)
+            logits = logits[:, -1, :] / temperature
+            if top_k is not None:
+                top = torch.topk(logits, min(top_k, logits.size(-1)))[0]
+                logits[logits < top[:, [-1]]] = float("-inf")  # keep only the k best characters
+            probs = F.softmax(logits, dim=-1)
             nxt = torch.multinomial(probs, 1)
             idx = torch.cat([idx, nxt], dim=1)
+        self.train(was_training)
         return idx
