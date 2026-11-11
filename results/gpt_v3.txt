@@ -1,0 +1,186 @@
+10.789M parameters, device: cuda
+{'model': 'gpt', 'tag': 'gpt_v3', 'block_size': 256, 'batch_size': 64, 'n_embd': 384, 'n_head': 6, 'n_layer': 6, 'dropout': 0.2, 'lr': 0.0006, 'weight_decay': 0.1, 'max_steps': 5000, 'warmup': 100, 'eval_every': 250, 'eval_iters': 50, 'seed': 0}
+step 0: train 4.3398, val 4.3425 | 0.1 min
+
+PuE?yUIMLqeG$K C!!PiGZGbs3u,&y.XDcTA;BOguNTF: F-m.NnN
+.eEWE$EwEGtUNzQqi$rZKP'fKkXsd!kiWJu'zPnYYLI l!tWUW-imStLdu.ddCZhbuH&WtmtzQJE;-MrhjN VS?S, KhsISs
+----------------------------------------
+step 250: train 2.1608, val 2.2067 | 1.3 min
+
+Me pof oows youl, wronke gut pur bikpitlis
+NuThannningadoo Bur ant myd,
+Thse ier coure somely thou cupe beal bump'd ah whomy ing olis;
+Youlle my bugrs
+----------------------------------------
+step 500: train 1.6873, val 1.8345 | 2.5 min
+
+DUKE VINCENTIO:
+Have I her trumboth! O, a brid hath in paty
+Your exew dismort dard-the thee, so me
+'TiGner, flor in a shall their grace
+The livege on 
+----------------------------------------
+step 750: train 1.4987, val 1.6927 | 3.7 min
+
+Anow my lord's moret your kneed are in though time
+Duke till thou arts.
+
+DUKE VINCENTIO:
+Have clain! I'll I know mine once.
+
+OXF AUMILT:
+Consword, to 
+----------------------------------------
+step 1000: train 1.3960, val 1.6109 | 4.8 min
+
+The severy at with turn from obeling for said.
+
+DUKE VINCENTIO:
+for joys away fatal wedning Cresom,
+Sew in Hastings affy his houses and buse.
+
+BAGON:
+
+----------------------------------------
+step 1250: train 1.3320, val 1.5727 | 6.0 min
+
+Alack of in this were and my friend, he sog heart,
+Romeo, my loving me brother's covernment.
+
+GLOUCESTER:
+Ay, sir, Angelo stom
+My lord, be speak, give
+----------------------------------------
+step 1500: train 1.2784, val 1.5390 | 7.2 min
+
+One of nursent
+Marshal was my sword content rooted. I have person
+That a virtue, and enemy tender me: you,
+Your hearts, may good my lords,
+'Romeo away
+----------------------------------------
+step 1750: train 1.2348, val 1.5133 | 8.4 min
+
+The talk'st thou wast too until this it;
+And well, fly world, for thou plyst steep at pay
+Ere in thy party of grave cannot ease.
+
+PAULINA:
+Let it shal
+----------------------------------------
+step 2000: train 1.2038, val 1.4912 | 9.5 min
+
+I'll play 'Read my post in piece with hard,
+Yet till not send truth him, and
+I dream my horseholder coase: his minds,
+My unrest nearned will never be 
+----------------------------------------
+step 2250: train 1.1693, val 1.4973 | 10.7 min
+
+Ca for we show between, was it what o' Montague,
+Whose I shall be made a bloody cut of redemember:
+The efforce that my leave of their cares dartakes.
+
+----------------------------------------
+step 2500: train 1.1413, val 1.4902 | 11.9 min
+
+
+DUKE OF YORK:
+If I did; bid as I speak this well-alask.
+
+QUEEN ELIZABETH:
+For I know remember'd from thy wife,
+I from him and thus like his royal hon
+----------------------------------------
+step 2750: train 1.1161, val 1.4777 | 13.0 min
+
+She is in your weakness shall for Romeo
+Her lions for a little heldly can tell you
+What defend you too: yet I have you left for my
+soul must not him. 
+----------------------------------------
+step 3000: train 1.0881, val 1.4749 | 14.2 min
+
+Now thy party:
+How my mother thou art a firmix.
+
+LUCIO:
+Scurck was necessary, thy mind to chose out.
+
+DUKE VINCENTIO:
+O, let me be no longer an a man.
+----------------------------------------
+step 3250: train 1.0705, val 1.4844 | 15.4 min
+
+Quainted, with my authority lays must be they
+Have still pity to the children's nature.
+
+KING RICHARD II:
+Cousin, by some pensive, dislike to be you,
+
+----------------------------------------
+step 3500: train 1.0506, val 1.4956 | 16.5 min
+
+MENENIUS:
+He mugge his others will not to ennow even.
+Must thou hast rich for this sworn in this ill
+He's sendled in it hit for it.
+
+MENENIUS:
+He hath
+----------------------------------------
+step 3750: train 1.0351, val 1.4838 | 17.7 min
+
+
+First Senator:
+When, they are shepherd's false gentleman to York.
+
+Third Servant:
+If you may not well accuse to retire your general,
+holp you than wi
+----------------------------------------
+step 4000: train 1.0158, val 1.4958 | 18.9 min
+
+Now but the matter whereof,
+and the worldly heaven choice, might be 'Moner.'
+
+KING RICHARD II:
+But as I will call myself with him.
+Now, lies out for m
+----------------------------------------
+step 4250: train 1.0028, val 1.4858 | 20.1 min
+
+For noble lord, my duke of Lancaster
+Had been pain'd by whose charm you did;
+But woe against the states of grief we suffer'd,
+Into himself with twenty
+----------------------------------------
+step 4500: train 0.9903, val 1.4896 | 21.2 min
+
+KING EDWARD IV:
+Inforced and York the people dark to beg;
+That is no one that's done withal. What, I do not;
+Lest unrest apawn I will be laid,
+For tel
+----------------------------------------
+step 4750: train 0.9791, val 1.4985 | 22.4 min
+
+HENRY BOLINGBROKE:
+This as this most unrevel sighs;
+Plantagenet, for I mistake the sword,
+To comfort those accusation friends.
+
+NORFOLK:
+Sorted truths
+----------------------------------------
+step 4999: train 0.9729, val 1.5026 | 23.6 min
+
+Unclinence stolen; be so long in a very disturb out
+In possession.
+
+ISABELLA:
+The gods we can make it for love,
+And possession over a maid. How long i
+----------------------------------------
+final (200 batches each): train 0.9747, val 1.5034
+training time: 24.1 min

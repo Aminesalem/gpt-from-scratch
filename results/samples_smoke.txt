@@ -1,0 +1,22 @@
+##### temperature 1.0, top_k None
+ROMEO:
+Caa;s
+qW
+re Tme uagl,b thatje oZy f ces msowr 'sa v f teaS ic heeWotira mIox, a halgngahee, h
+es nT
+
+##### temperature 0.8, top_k None
+ROMEO:
+ aa;s lW
+re Tme uagl,b thatje ory f ces msow nrsi v f tea thc heeWotira mIox, a hal ngahee wh
+es nT
+
+##### temperature 0.8, top_k 40
+ROMEO:
+ aa;s lW
+re Tme uagl,b thatme ory f ces msow nrsi v f tea thc heemotira mIoh, a hal ngahee wh
+es nT
+
+##### temperature 0.5, top_k 10
+ROMEO:
+ aaos l s s t e aan s  t atie o s h t s oror tr a a a t a th  he m tira mhohe a ha tn ahe t he s n 

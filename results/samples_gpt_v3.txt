@@ -1,0 +1,97 @@
+##### temperature 1.0, top_k None
+ROMEO:
+If merciful, let me alone:
+My friend your son and my suits are prevail'd.
+
+SICINIUS:
+Then we have nine let him from the cups to-morrow.
+
+BRUTUS:
+Where is the worm--
+
+MENENIUS:
+Well, are you all, sir?
+
+Both:
+I muse thee: yet faults, I am sure for thee
+Will please luck in a bow of spirit.
+
+SICINIUS:
+Therefore, more mere, sir: I'll die with Polixenes
+Thee against them; where did it see the crown,
+Th
+
+##### temperature 0.8, top_k None
+ROMEO:
+If I did beseech you, for your lordship,
+Which you contend me well my lord with a morn,
+And do not in my life.
+
+BENVOLIO:
+Sir, in my heart cannot be done.
+
+ROMEO:
+Where is the language of the world?
+
+BENVOLIO:
+O, death!
+Be blame my lord, that would I had spend thee.
+
+BENVOLIO:
+Then have I loved thee that to woo.
+
+ROMEO:
+O faithful mistress! I fear thee again!
+
+BENVOLIO:
+Why, had sometimes thou st
+
+##### temperature 0.8, top_k 40
+ROMEO:
+If I did beseech you, for your lordship,
+Which you contend me well my lord with a morn,
+And do not in my life.
+
+BENVOLIO:
+Sir, in my heart cannot be done.
+
+ROMEO:
+Where is the language of the world?
+
+BENVOLIO:
+O, death!
+Be blame my lord, that would I had spend thee.
+
+BENVOLIO:
+Then have I loved thee that to woo.
+
+ROMEO:
+O faithful mistress! I fear thee again!
+
+BENVOLIO:
+Why, had sometimes thou st
+
+##### temperature 0.5, top_k 10
+ROMEO:
+I have done all the mind.
+
+BENVOLIO:
+Stay not to give us the sun and beggar of your
+To sue mercy.
+
+MERCUTIO:
+No, good Catesby, sir, what means the dead?
+
+BENVOLIO:
+Merely is he?
+
+ROMEO:
+At the day of the state, and the state and sea
+With the book of the lips of the court?
+
+MERCUTIO:
+I know not where.
+
+ROMEO:
+And there's a fearful death, that the people shall be
+seen to be put in a condemned with 
