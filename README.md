@@ -48,6 +48,42 @@ Your mother is again.
 
 The v3 text has the format of a play, real words and mostly correct grammar, and it even makes up words that sound right ("malapel", "unmale"). The sentences still don't really mean anything, which is what you expect from a model this small trained only on characters.
 
+## Sampling settings
+
+`sample.py` generates text from the final v3 model with the same random seed and the same prompt ("ROMEO:"), changing only the sampling settings. Temperature controls how risky the next-character choice is (low = safe, high = surprising), and top-k only lets the k most likely characters be picked.
+
+Temperature 1.0:
+```
+ROMEO:
+If merciful, let me alone:
+My friend your son and my suits are prevail'd.
+
+SICINIUS:
+Then we have nine let him from the cups to-morrow.
+```
+
+Temperature 0.8:
+```
+ROMEO:
+If I did beseech you, for your lordship,
+Which you contend me well my lord with a morn,
+And do not in my life.
+```
+
+Temperature 0.5, top-k 10:
+```
+ROMEO:
+I have done all the mind.
+
+BENVOLIO:
+Stay not to give us the sun and beggar of your
+To sue mercy.
+```
+
+At 1.0 the text is the most varied, but it jumps between topics and sentences fall apart quicker. At 0.8 it stays on the scene better (Romeo and Benvolio keep talking to each other). At 0.5 it is the cleanest, but it starts to repeat itself ("the state and the state and sea").
+
+Temperature 0.8 with top-k 40 gave exactly the same text as 0.8 without it. That makes sense: the vocabulary has only 65 characters, so the 25 least likely ones almost never get picked anyway. Top-k only starts to matter with small values like 10. All four samples are in `results/samples_gpt_v3.txt`.
+
 ## How to run
 
 1. `pip install -r requirements.txt`
